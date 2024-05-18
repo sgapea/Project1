@@ -56,7 +56,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2"
   type        = string
-  default     = "EC2"
+  default     = "EC2.pem"
 }
 
 variable "instance_name" {
