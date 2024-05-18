@@ -63,3 +63,4 @@ variable "instance_name" {
   description = "EC2 Instance name for the jumphost server"
   type        = string
   default     = "Jumphost-server"
+}
