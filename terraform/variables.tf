@@ -56,7 +56,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2"
   type        = string
-  default     = "EC2.pem"
+  default     = "mynewpair"
 }
 
 variable "instance_name" {
